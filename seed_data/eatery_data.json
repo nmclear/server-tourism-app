@@ -1,0 +1,55 @@
+[
+  {
+    "id": "111",
+    "name": "7 Monks Bar",
+    "description": "Cozy, woodsy tavern with refined American pub grub, 46 beers on tap & kegs of wine.",
+    "category": "EATERY",
+    "groups": ["DOWNTOWN", "BAR", "AMERICAN"],
+    "contact": {
+      "phone": "2314090332",
+      "email": "test@test.com",
+      "website": "https://www.google.com/",
+      "weekdayHours": {
+        "Sunday": {
+          "open": "10",
+          "close": "18"
+        },
+        "Monday": {
+          "open": "10",
+          "close": "18"
+        },
+        "Tuesday": {
+          "open": "10",
+          "close": "18"
+        },
+        "Wednesday": {
+          "open": "10",
+          "close": "20"
+        },
+        "Thursday": {
+          "open": "10",
+          "close": "22"
+        },
+        "Friday": {
+          "open": "10",
+          "close": "22"
+        },
+        "Saturday": {
+          "open": "10",
+          "close": "22"
+        }
+      }
+    },
+    "location": {
+      "address": "128 S Union St",
+      "city": "Traverse City",
+      "state": "MI",
+      "zipcode": "49684",
+      "coordinate": {
+        "latitude": 44.76317,
+        "longitude": -85.62404
+      }
+    },
+    "uri": "https://images.pexels.com/photos/696218/pexels-photo-696218.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "name": "server-tourism-app",
+  "version": "1.0.0",
+  "description": "Backend for tourism app",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmclear/server-tourism-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmclear/server-tourism-app/issues"
+  },
+  "homepage": "https://github.com/nmclear/server-tourism-app#readme",
+  "dependencies": {
+    "apollo-server-lambda": "^2.3.1",
+    "aws-sdk": "^2.381.0",
+    "graphql": "^14.0.2",
+    "graphql-tools": "^4.0.3",
+    "merge-graphql-schemas": "^1.5.8",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "8",
+    "eslint": "4.x",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "serverless-dynamodb-local": "^0.2.35",
+    "serverless-offline": "^3.31.3"
+  }
+}
