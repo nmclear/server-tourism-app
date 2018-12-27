@@ -4,6 +4,7 @@ module.exports = {
   Query: {
     eateries: (_, args) => dbEateries.getEateries(),
     eatery: (_, args) => dbEateries.getEateryById(args.id),
+    eateriesByGroup: (_, args) => dbEateries.getEateriesByGroup(args.group),
   },
   Mutation: {
     createEatery: (_, args) => dbEateries.createEatery(args),

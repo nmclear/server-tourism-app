@@ -11,32 +11,32 @@
       "website": "https://www.google.com/",
       "weekdayHours": {
         "Sunday": {
-          "open": "10",
-          "close": "18"
+          "open": "10 am",
+          "close": "6 pm"
         },
         "Monday": {
-          "open": "10",
-          "close": "18"
+          "open": "10 am",
+          "close": "6pm"
         },
         "Tuesday": {
-          "open": "10",
-          "close": "18"
+          "open": "10 am",
+          "close": "6 pm"
         },
         "Wednesday": {
-          "open": "10",
-          "close": "20"
+          "open": "10 am",
+          "close": "8 pm"
         },
         "Thursday": {
-          "open": "10",
-          "close": "22"
+          "open": "10 am",
+          "close": "10 pm"
         },
         "Friday": {
-          "open": "10",
-          "close": "22"
+          "open": "10 am",
+          "close": "10 pm"
         },
         "Saturday": {
-          "open": "10",
-          "close": "22"
+          "open": "10 am",
+          "close": "10 pm"
         }
       }
     },

@@ -24,6 +24,18 @@ module.exports = {
     return db.get(params);
   },
 
+  getEateriesByGroup: (group) => {
+    const params = {
+      TableName: TABLE_NAME,
+      ExpressionAttributeValues: {
+        ':group': group,
+      },
+      FilterExpression: 'contains (groups, :group)',
+    };
+
+    return db.scan(params);
+  },
+
   createEatery: (args) => {
     const params = {
       TableName: TABLE_NAME,

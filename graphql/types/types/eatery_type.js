@@ -15,6 +15,7 @@ module.exports = gql`
   type Query {
     eateries: [Eatery]
     eatery(id: ID!): Eatery
+    eateriesByGroup(group: EateryGroup): [Eatery]
   }
 
   type Mutation {
