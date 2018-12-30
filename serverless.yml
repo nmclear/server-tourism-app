@@ -68,3 +68,9 @@ custom:
         sources:
           - table: tcLocales
             sources: [./seed_data/eatery_data.json]
+          - table: tcLocales
+            sources: [./seed_data/hotel_data.json]
+          - table: tcLocales
+            sources: [./seed_data/entertainment_data.json]
+          - table: tcLocales
+            sources: [./seed_data/transportation_data.json]

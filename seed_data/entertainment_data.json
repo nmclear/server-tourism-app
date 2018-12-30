@@ -1,0 +1,55 @@
+[
+  {
+    "id": "301",
+    "name": "State Theatre",
+    "description": "Traverse City's State Theatre combines world-class, state-of-the-art presentation with the classic hometown movie palace experience. The world’s most comfortable seats, delicious and affordable concessions, a welcoming and friendly atmosphere, and unparalleled picture and sound are just some of the reasons why the Motion Picture Association of America listed the State as the #1 movie theater in the world.",
+    "category": "ENTERTAINMENT",
+    "groups": ["DOWNTOWN", "THEATER", "NIGHT_LIFE"],
+    "contact": {
+      "phone": "2314090332",
+      "email": "test@test.com",
+      "website": "https://www.google.com/",
+      "weekdayHours": {
+        "Sunday": {
+          "open": "10 am",
+          "close": "6 pm"
+        },
+        "Monday": {
+          "open": "10 am",
+          "close": "6pm"
+        },
+        "Tuesday": {
+          "open": "10 am",
+          "close": "6 pm"
+        },
+        "Wednesday": {
+          "open": "10 am",
+          "close": "8 pm"
+        },
+        "Thursday": {
+          "open": "10 am",
+          "close": "10 pm"
+        },
+        "Friday": {
+          "open": "10 am",
+          "close": "10 pm"
+        },
+        "Saturday": {
+          "open": "10 am",
+          "close": "10 pm"
+        }
+      }
+    },
+    "location": {
+      "address": "233 E Front St",
+      "city": "Traverse City",
+      "state": "MI",
+      "zipcode": "49684",
+      "coordinate": {
+        "latitude": 44.76412,
+        "longitude": -85.61053
+      }
+    },
+    "uri": "https://images.pexels.com/photos/109669/pexels-photo-109669.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  }
+]

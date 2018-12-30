@@ -1,42 +1,45 @@
 const { gql } = require('apollo-server-lambda');
-
+// type Entertainment implements Locale {
 module.exports = gql`
-  interface Locale {
+  type Entertainment {
     id: ID!
     name: String!
     description: String!
     category: Category!
     contact: Contact
     location: Location!
+    groups: [EntertainmentGroup]!
+    uri: String
   }
+
   type Query {
-    locales: [Locale]
-    locale(id: ID!): Locale
-    localesByGroup(category: Category, group: LocaleGroup): [Locale]
+    entertainments: [Entertainment]
+    entertainment(id: ID!): Entertainment
+    entertainmentByGroup(category: Category, group: EntertainmentGroup): [Entertainment]
   }
 
   type Mutation {
-    createLocale(
+    createEntertainment(
       name: String!
       description: String!
       category: Category!
       contact: ContactInput
       location: LocationInput
-      groups: [LocaleGroup]!
+      groups: [EntertainmentGroup]!
       uri: String
-    ): Locale
+    ): Entertainment
 
-    updateLocale(
+    updateEntertainment(
       id: ID!
       name: String!
       description: String!
       category: Category
       contact: ContactInput
       location: LocationInput
-      groups: [LocaleGroup]!
+      groups: [EntertainmentGroup]!
       uri: String
-    ): Locale
+    ): Entertainment
 
-    deleteLocale(id: ID!): Locale
+    deleteEntertainment(id: ID!): Entertainment
   }
 `;

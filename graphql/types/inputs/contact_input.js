@@ -5,6 +5,7 @@ module.exports = gql`
     phone: String
     email: String
     website: String
+    opentable: String
     hours: HoursInput
   }
 `;

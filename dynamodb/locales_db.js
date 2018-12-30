@@ -13,6 +13,18 @@ module.exports = {
     return db.scan(params);
   },
 
+  getLocalesByCategory: ({ category }) => {
+    const params = {
+      TableName: TABLE_NAME,
+      ExpressionAttributeValues: {
+        ':category': category,
+      },
+      FilterExpression: 'category = :category',
+    };
+
+    return db.scan(params);
+  },
+
   getLocaleById: (id) => {
     const params = {
       TableName: TABLE_NAME,
@@ -24,13 +36,33 @@ module.exports = {
     return db.get(params);
   },
 
+  getLocalesByGroup: ({ category, group }) => {
+    const params = {
+      TableName: TABLE_NAME,
+      ExpressionAttributeValues: {
+        ':group': group,
+        ':category': category,
+      },
+      FilterExpression: 'contains (groups, :group) AND category = :category',
+    };
+
+    return db.scan(params);
+  },
+
   createLocale: (args) => {
     const params = {
       TableName: TABLE_NAME,
       Item: {
         id: uuid(),
         name: args.name,
+        description: args.description,
+        category: args.category,
+        contact: args.contact,
+        location: args.location,
+        groups: args.groups,
+        uri: args.uri,
         addedAt: Date.now(),
+        updatedAt: Date.now(),
       },
     };
 
@@ -45,8 +77,16 @@ module.exports = {
       },
       ExpressionAttributeValues: {
         ':name': args.name,
+        ':descr': args.description,
+        ':cat': args.category,
+        ':contact': args.contact,
+        ':location': args.location,
+        ':groups': args.groups,
+        ':uri': args.uri,
+        ':date': Date.now(),
       },
-      UpdateExpression: 'SET name = :name',
+      UpdateExpression:
+        'SET name = :name, description = :descr, category = :cat, contact = :contact, location = :location, groups = :groups, updatedAt = :date, uri = :uri',
       ReturnValues: 'ALL_NEW',
     };
 

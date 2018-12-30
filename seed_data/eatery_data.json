@@ -1,6 +1,6 @@
 [
   {
-    "id": "111",
+    "id": "101",
     "name": "7 Monks Bar",
     "description": "Cozy, woodsy tavern with refined American pub grub, 46 beers on tap & kegs of wine.",
     "category": "EATERY",
@@ -51,5 +51,112 @@
       }
     },
     "uri": "https://images.pexels.com/photos/696218/pexels-photo-696218.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "id": "102",
+    "name": "Red Ginger",
+    "description": "Upscale, chef-owned spot offers small plates of light Pan-Asian cuisine & signature cocktails.",
+    "category": "EATERY",
+    "groups": ["DOWNTOWN", "SUSHI", "SEAFOOD"],
+    "contact": {
+      "phone": "2314090332",
+      "email": "test@test.com",
+      "website": "http://www.eatatginger.com/",
+      "opentable": "https://www.opentable.com/red-ginger-of-traverse-city",
+      "weekdayHours": {
+        "Sunday": {
+          "open": "10 am",
+          "close": "6 pm"
+        },
+        "Monday": {
+          "open": "10 am",
+          "close": "6pm"
+        },
+        "Tuesday": {
+          "open": "10 am",
+          "close": "6 pm"
+        },
+        "Wednesday": {
+          "open": "10 am",
+          "close": "8 pm"
+        },
+        "Thursday": {
+          "open": "10 am",
+          "close": "10 pm"
+        },
+        "Friday": {
+          "open": "10 am",
+          "close": "10 pm"
+        },
+        "Saturday": {
+          "open": "10 am",
+          "close": "10 pm"
+        }
+      }
+    },
+    "location": {
+      "address": "237 E Front St",
+      "city": "Traverse City",
+      "state": "MI",
+      "zipcode": "49684",
+      "coordinate": {
+        "latitude": 44.76433,
+        "longitude": -85.6191
+      }
+    },
+    "uri": "https://images.pexels.com/photos/357756/pexels-photo-357756.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "id": "103",
+    "name": "Harrington's By The Bay",
+    "description": "Seafood & steaks in an airy, rustic venue with nautical decor, a stone fireplace & a bay view.",
+    "category": "EATERY",
+    "groups": ["LAKE_VIEW", "STEAK", "SEAFOOD"],
+    "contact": {
+      "phone": "2314090332",
+      "email": "test@test.com",
+      "website": "http://www.harringtonsbythebay.com/",
+      "weekdayHours": {
+        "Sunday": {
+          "open": "10 am",
+          "close": "6 pm"
+        },
+        "Monday": {
+          "open": "10 am",
+          "close": "6pm"
+        },
+        "Tuesday": {
+          "open": "10 am",
+          "close": "6 pm"
+        },
+        "Wednesday": {
+          "open": "10 am",
+          "close": "8 pm"
+        },
+        "Thursday": {
+          "open": "10 am",
+          "close": "10 pm"
+        },
+        "Friday": {
+          "open": "10 am",
+          "close": "10 pm"
+        },
+        "Saturday": {
+          "open": "10 am",
+          "close": "10 pm"
+        }
+      }
+    },
+    "location": {
+      "address": "13890 S W Bay Shore Dr",
+      "city": "Traverse City",
+      "state": "MI",
+      "zipcode": "49684",
+      "coordinate": {
+        "latitude": 44.7776,
+        "longitude": -85.64186
+      }
+    },
+    "uri": "https://images.pexels.com/photos/769289/pexels-photo-769289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
   }
 ]

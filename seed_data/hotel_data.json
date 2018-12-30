@@ -1,0 +1,25 @@
+[
+  {
+    "id": "201",
+    "name": "Park Place Hotel",
+    "description": "Park Place Hotel & Conference Center offers more than just first-class accommodations. Its views of Traverse City and Grand Traverse Bay cannot be beaten. And you don’t have to travel far to experience nationally-renowned restaurants and entertainment. What are you waiting for? Visit Traverse City and stay in luxury at Park Place Hotel & Conference Center.",
+    "category": "HOTEL",
+    "groups": ["DOWNTOWN"],
+    "contact": {
+      "phone": "2314090332",
+      "email": "test@test.com",
+      "website": "https://www.google.com/"
+    },
+    "location": {
+      "address": "300 E State St",
+      "city": "Traverse City",
+      "state": "MI",
+      "zipcode": "49684",
+      "coordinate": {
+        "latitude": 44.76233,
+        "longitude": -85.61821
+      }
+    },
+    "uri": "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  }
+]
