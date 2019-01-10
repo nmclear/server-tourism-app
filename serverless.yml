@@ -67,10 +67,13 @@ custom:
       domain:
         sources:
           - table: tcLocales
-            sources: [./seed_data/eatery_data.json]
-          - table: tcLocales
-            sources: [./seed_data/hotel_data.json]
-          - table: tcLocales
-            sources: [./seed_data/entertainment_data.json]
-          - table: tcLocales
-            sources: [./seed_data/transportation_data.json]
+            sources:
+              [
+                ./seed_data/eatery_data.json,
+                ./seed_data/hotel_data.json,
+                ./seed_data/entertainment_data.json,
+                ./seed_data/transportation_data.json,
+                ./seed_data/sport_data.json,
+                ./seed_data/landmark_data.json,
+                ./seed_data/nature_data.json,
+              ]

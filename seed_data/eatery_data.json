@@ -1,42 +1,48 @@
 [
   {
     "id": "101",
-    "name": "7 Monks Bar",
+    "name": "7 Monks Taproom",
+    "tagline": "Craft beer bar with over 40 taps.",
     "description": "Cozy, woodsy tavern with refined American pub grub, 46 beers on tap & kegs of wine.",
     "category": "EATERY",
     "groups": ["DOWNTOWN", "BAR", "AMERICAN"],
     "contact": {
-      "phone": "2314090332",
+      "phone": "2314218410",
       "email": "test@test.com",
-      "website": "https://www.google.com/",
+      "website": "https://www.7monkstap.com/traverse-city/",
+      "social": {
+        "facebook": "https://www.facebook.com/7MonksTaproom/",
+        "instagram": "https://www.instagram.com/7monkstc/",
+        "twitter": "https://twitter.com/7monks?lang=en"
+      },
       "weekdayHours": {
         "Sunday": {
-          "open": "10 am",
-          "close": "6 pm"
+          "open": "11:30 am",
+          "close": "10 pm"
         },
         "Monday": {
-          "open": "10 am",
-          "close": "6pm"
+          "open": "3 pm",
+          "close": "12 am"
         },
         "Tuesday": {
-          "open": "10 am",
-          "close": "6 pm"
+          "open": "3 pm",
+          "close": "12 am"
         },
         "Wednesday": {
-          "open": "10 am",
-          "close": "8 pm"
+          "open": "3 pm",
+          "close": "12 am"
         },
         "Thursday": {
-          "open": "10 am",
-          "close": "10 pm"
+          "open": "3 pm",
+          "close": "12 am"
         },
         "Friday": {
-          "open": "10 am",
-          "close": "10 pm"
+          "open": "12 pm",
+          "close": "12 am"
         },
         "Saturday": {
-          "open": "10 am",
-          "close": "10 pm"
+          "open": "11:30 am",
+          "close": "12 am"
         }
       }
     },
@@ -44,7 +50,7 @@
       "address": "128 S Union St",
       "city": "Traverse City",
       "state": "MI",
-      "zipcode": "49684",
+      "zipcode": 49684,
       "coordinate": {
         "latitude": 44.76317,
         "longitude": -85.62404
@@ -55,14 +61,19 @@
   {
     "id": "102",
     "name": "Red Ginger",
+    "tagline": "Upscale sushi and Pan-Asian cuisine.",
     "description": "Upscale, chef-owned spot offers small plates of light Pan-Asian cuisine & signature cocktails.",
     "category": "EATERY",
     "groups": ["DOWNTOWN", "SUSHI", "SEAFOOD"],
     "contact": {
-      "phone": "2314090332",
+      "phone": "2319441733",
       "email": "test@test.com",
       "website": "http://www.eatatginger.com/",
       "opentable": "https://www.opentable.com/red-ginger-of-traverse-city",
+      "social": {
+        "facebook": "https://www.facebook.com/EatAtGinger/",
+        "twitter": "https://twitter.com/eatatginger?lang=en"
+      },
       "weekdayHours": {
         "Sunday": {
           "open": "10 am",
@@ -98,7 +109,7 @@
       "address": "237 E Front St",
       "city": "Traverse City",
       "state": "MI",
-      "zipcode": "49684",
+      "zipcode": 49684,
       "coordinate": {
         "latitude": 44.76433,
         "longitude": -85.6191
@@ -109,13 +120,17 @@
   {
     "id": "103",
     "name": "Harrington's By The Bay",
+    "tagline": "Bay view steaks and seafood",
     "description": "Seafood & steaks in an airy, rustic venue with nautical decor, a stone fireplace & a bay view.",
     "category": "EATERY",
     "groups": ["LAKE_VIEW", "STEAK", "SEAFOOD"],
     "contact": {
-      "phone": "2314090332",
+      "phone": "2314219393",
       "email": "test@test.com",
       "website": "http://www.harringtonsbythebay.com/",
+      "social": {
+        "facebook": "https://www.facebook.com/HarringtonsByTheBay/"
+      },
       "weekdayHours": {
         "Sunday": {
           "open": "10 am",
@@ -151,7 +166,7 @@
       "address": "13890 S W Bay Shore Dr",
       "city": "Traverse City",
       "state": "MI",
-      "zipcode": "49684",
+      "zipcode": 49684,
       "coordinate": {
         "latitude": 44.7776,
         "longitude": -85.64186

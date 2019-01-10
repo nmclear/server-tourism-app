@@ -1,0 +1,29 @@
+[
+  {
+    "id": "701",
+    "name": "Mission Point Lighthouse",
+    "tagline": "Historical and picturesque lighthouse",
+    "description": "Mission Point Lighthouse has been a Traverse City and Old Mission Peninsula icon for decades. Located at the north end of a picturesque drive along M-37 through cherry orchards and vineyards, Mission Point Lighthouse stands as a classic piece of Michigan history. While it no longer guides mariners through West Grand Traverse Bay as it did from September 10, 1870 until it was decommissioned in 1933, Mission Point Lighthouse now offers visitors a peek into what life was like around the turn of the century for lighthouse keepers and for others who lived and worked in the area at the time.",
+    "category": "LANDMARK",
+    "groups": ["LIGHTHOUSES"],
+    "contact": {
+      "phone": "2312237324",
+      "email": "missionpointlight@gmail.com",
+      "website": "http://www.missionpointlighthouse.com/",
+      "social": {
+        "facebook": "https://www.facebook.com/missionpointlighthousetc/"
+      }
+    },
+    "location": {
+      "address": "20500 Center Rd",
+      "city": "Traverse City",
+      "state": "MI",
+      "zipcode": 49686,
+      "coordinate": {
+        "latitude": 44.99113,
+        "longitude": -85.47865
+      }
+    },
+    "uri": "https://images.pexels.com/photos/1532771/pexels-photo-1532771.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+  }
+]

@@ -2,19 +2,23 @@
   {
     "id": "401",
     "name": "Cherry Capital Cab",
+    "tagline": "24/7 Taxi business",
     "description": "Cherry Capital Cab opened for business on November 9, 2007. We acquired the phone number of 941-TAXI after the defunct T.C. Cab relinquished it. Most of our well-maintained 25-vehicle fleet of both minivans and sedans is owned by the drivers themselves assuring you of a driver with a vested interest in your safe and reliable transportation.",
     "category": "TRANSPORTATION",
     "groups": ["TAXI"],
     "contact": {
-      "phone": "2314090332",
-      "email": "test@test.com",
-      "website": "https://www.google.com/"
+      "phone": "2319418294",
+      "email": "941TAXI@gmail.com",
+      "website": "https://www.cherrycapitalcab.com/",
+      "social": {
+        "facebook": "https://www.facebook.com/CherryCapitalCab/"
+      }
     },
     "location": {
       "address": "3002 N Garfield Rd",
       "city": "Traverse City",
       "state": "MI",
-      "zipcode": "49686",
+      "zipcode": 49686,
       "coordinate": {
         "latitude": 44.7306,
         "longitude": -85.59484

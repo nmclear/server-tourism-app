@@ -54,5 +54,16 @@ module.exports = gql`
     DIRECTIONS
     BUS
     TAXI
+    SKIING
+    GOLF
+    BIKE
+    HIKING
+    GYM
+    BEACHES
+    LAKES
+    PARKS
+    LIGHTHOUSES
+    FARMS
+    MARINA
   }
 `;

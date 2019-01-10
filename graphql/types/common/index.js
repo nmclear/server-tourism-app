@@ -5,6 +5,7 @@ const CoordinateType = require('./coordinate_type');
 const LocationType = require('./location_type');
 const WeekdayHoursTyps = require('./weekday_hours_type');
 const HoursType = require('./hours_type');
+const SocialType = require('./social_type');
 
 module.exports = mergeTypes([
   ContactType,
@@ -12,4 +13,5 @@ module.exports = mergeTypes([
   LocationType,
   WeekdayHoursTyps,
   HoursType,
+  SocialType,
 ]);

@@ -55,6 +55,7 @@ module.exports = {
       Item: {
         id: uuid(),
         name: args.name,
+        tagline: args.tagline,
         description: args.description,
         category: args.category,
         contact: args.contact,
@@ -78,6 +79,7 @@ module.exports = {
       ExpressionAttributeValues: {
         ':name': args.name,
         ':descr': args.description,
+        ':tag': args.tagline,
         ':cat': args.category,
         ':contact': args.contact,
         ':location': args.location,
@@ -86,7 +88,7 @@ module.exports = {
         ':date': Date.now(),
       },
       UpdateExpression:
-        'SET name = :name, description = :descr, category = :cat, contact = :contact, location = :location, groups = :groups, updatedAt = :date, uri = :uri',
+        'SET name = :name, description = :descr, tagline = :tag, category = :cat, contact = :contact, location = :location, groups = :groups, updatedAt = :date, uri = :uri',
       ReturnValues: 'ALL_NEW',
     };
 

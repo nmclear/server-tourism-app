@@ -6,6 +6,7 @@ module.exports = gql`
     email: String
     website: String
     opentable: String
-    hours: HoursInput
+    weekdayHours: WeekdayHoursInput
+    social: SocialInput
   }
 `;

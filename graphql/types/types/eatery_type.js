@@ -47,14 +47,15 @@
 const { gql } = require('apollo-server-lambda');
 // type Eatery implements Locale {
 module.exports = gql`
-  type Eatery {
+  type Eatery implements Locale {
     id: ID!
     name: String!
+    tagline: String!
     description: String!
     category: Category!
     contact: Contact
     location: Location!
-    groups: [EateryGroup]!
+    groups: [LocaleGroup]!
     uri: String
   }
 `;

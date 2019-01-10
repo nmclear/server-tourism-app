@@ -5,6 +5,7 @@ const LocationInput = require('./location_input');
 const CoordinateInput = require('./coordinate_input');
 const WeekdayHoursInput = require('./weekday_hours_input');
 const HoursInput = require('./hours_input');
+const SocialInput = require('./social_input');
 
 module.exports = mergeTypes([
   ContactInput,
@@ -12,4 +13,5 @@ module.exports = mergeTypes([
   CoordinateInput,
   WeekdayHoursInput,
   HoursInput,
+  SocialInput,
 ]);

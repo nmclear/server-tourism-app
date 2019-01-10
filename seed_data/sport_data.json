@@ -1,0 +1,31 @@
+[
+  {
+    "id": "501",
+    "name": "LochenHeath Golf Club",
+    "tagline": "Cherry orchard course on coast",
+    "description": "LochenHeath Golf Club rests on a scenic bluff overlooking East Grand Traverse Bay on the northwestern coast of the Lower Peninsula and was once a cherry orchard owned and operated for over 75 years by the Maitland family. Fifteen years ago, the Maitlands converted the orchard into a luxury golf course. This private club opened to great fanfare as a residential golf course development, centered by the award-winning 7,239 yard course designed by acclaimed Florida architect Steve Smyers. This impressive community features generous luxury home sites situated throughout a brilliant championship golf course. Several of these home sites number among the most beautiful and highly sought-after waterfront lots in the area.  LochenHeath's distinctive and elegant architectural style creates a unique residential identity.  LochenHeath is a paradise for lovers of the outdoors, golf and access to beautiful East Grand Traverse Bay. The Club was purchased in the fall of 2010 by a committed group of LochenHeath homeowners and members. The club is inviting limited outside play to experience the golf course at LochenHeath Golf Club.",
+    "category": "SPORT",
+    "groups": ["GOLF"],
+    "contact": {
+      "phone": "2319389800",
+      "email": "info@lochenheath.com",
+      "website": "http://www.lochenheath.com/",
+      "social": {
+        "facebook": "https://www.facebook.com/lochenheath",
+        "instagram": "https://www.instagram.com/lochenheathgolf/",
+        "twitter": "https://twitter.com/lochenheathgolf"
+      }
+    },
+    "location": {
+      "address": "7951 Turnberry Cir",
+      "city": "Williamsburg",
+      "state": "MI",
+      "zipcode": 49690,
+      "coordinate": {
+        "latitude": 44.80189,
+        "longitude": -85.48739
+      }
+    },
+    "uri": "https://images.pexels.com/photos/33478/golf-sunset-sport-golfer.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  }
+]

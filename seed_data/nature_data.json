@@ -1,0 +1,26 @@
+[
+  {
+    "id": "601",
+    "name": "Van's Beach",
+    "tagline": "Leland local hangout spot",
+    "description": "Public beach just beyond Van's Garage, is a local favorite. The trail head to the beach is just beyond Van's Garage at the end of Cedar Street - downtown Leland.",
+    "category": "NATURE",
+    "groups": ["BEACHES"],
+    "contact": {
+      "phone": "2318661133",
+      "email": "info@lelandmi.com",
+      "website": "http://www.lelandmi.com/things-to-do/beaches.html"
+    },
+    "location": {
+      "address": "205 Cedar St",
+      "city": "Leland",
+      "state": "MI",
+      "zipcode": 49654,
+      "coordinate": {
+        "latitude": 45.02221,
+        "longitude": -85.76243
+      }
+    },
+    "uri": "https://images.pexels.com/photos/462002/pexels-photo-462002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+  }
+]
